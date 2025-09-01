@@ -53,8 +53,8 @@ export default function PageShow({ page }: Props) {
                                     <Link href="/contact" className="text-gray-600 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">
                                         Contact
                                     </Link>
-                                    <Link href="/pages/about" className="text-gray-900 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">
-                                        About
+                                    <Link href="/pages/profile" className="text-gray-600 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">
+                                        Profile
                                     </Link>
                                 </div>
                             </div>
@@ -139,7 +139,6 @@ export default function PageShow({ page }: Props) {
                             <div>
                                 <h4 className="font-semibold mb-4">Company</h4>
                                 <div className="space-y-2 text-sm">
-                                    <Link href="/pages/about" className="block text-gray-300 hover:text-white">About Us</Link>
                                     <Link href="/pages/profile" className="block text-gray-300 hover:text-white">Company Profile</Link>
                                     <Link href="/pages/safety-quality" className="block text-gray-300 hover:text-white">Safety & Quality</Link>
                                 </div>
